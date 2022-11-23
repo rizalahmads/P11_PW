@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- Membuat Input Data dengan Tabel-->
+    <table>
+        <H2 style="text-align: center;">INPUT DATA HTML</H2>
+        <tr>
+            <td>NIM</td>
+            <td></td>
+            <td><input type="text" id="nim"></td>
+        </tr>
+        <tr>
+            <td>NAMA</td>
+            <td></td>
+            <td><input type="text" id="nama" size="40"></td>
+        </tr>
+        <tr>
+            <td>JENIS KELAMIN</td>
+            <td></td>
+            <td>
+                <input type="radio" name="jk" id="jk" value="Laki-Laki">Laki-Laki
+                <input type="radio" name="jk" id="jk" value="Perempuan">Perempuan
+            </td>
+        </tr>
+        <tr>
+            <td>HOBY</td>
+            <td></td>
+            <td>
+                <input type="checkbox" name="hobi" id="hobi" value="Membaca">Membaca
+                <input type="checkbox" name="hobi" id="hobi" value="Olahraga">Olahraga
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="checkbox" name="hobi" id="hobi" value="Berkebun">Berkebun
+                <input type="checkbox" name="hobi" id="hobi" value="Memasak">Memasak
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="checkbox" name="hobi" id="hobi" value="Otomotif">Otomotif
+                <input type="checkbox" name="hobi" id="hobi" value="Game & Komputer">Game & Komputer
+            </td>
+        </tr>
+        <tr>
+            <td>JURUSAN</td>
+            <td></td>
+            <td>
+                <select name="jurusan" id="jurusan">
+                    <option value=""></option>
+                    <option value="BM">Bisnis Manajemen</option>
+                    <option value="CS">Ilmu Komputer</option>
+                    <option value="SI">Sistem Informasi</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Motto</td>
+            <td></td>
+            <td><textarea name="motto" id="motto" cols="30" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <button onclick="simpan()">Simpan</button>
+                <button onclick="reset()">Reset</button>
+                <button onclick="keluar()">Keluar</button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+<h2 style="text-align: center;">INPUT DATA JS</h2>
+
+    <!-- Get JavaScript -->
+    <script src="Tabel.js"></script>
+
+</body>
+
+</html>
